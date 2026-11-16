@@ -1,5 +1,22 @@
+/* Body styling */
+body {
+  background-color: #121212;
+  color: #fff;
+  font-family: "Public Sans", sans-serif;
+}
+
 /* Primary button override */
 .btn-primary {
+  --bs-btn-color: #000;
+  --bs-btn-bg: #FC6018;
+  --bs-btn-border-color: #FC6018;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #e05312;
+  --bs-btn-hover-border-color: #d44d0f;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: #c7460c;
+  --bs-btn-active-border-color: #c7460c;
+  --bs-btn-border-radius: 50rem;
   background-color: #FC6018;
   border-color: #FC6018;
   color: #000;
@@ -11,14 +28,12 @@
 /* Custom Navbar */
 .custom-navbar {
   background-color: #121212;
-  font-family: "Public Sans";
-  border: #FC6018;
+  font-family: "Public Sans", sans-serif;
 }
 
 .custom-navbar .navbar-brand {
   color: #FC6018;
-  font-family: "Archivo Black";
-  font-weight: 900;
+  font-family: "Archivo Black", sans-serif;
   font-size: 1.4rem;
   letter-spacing: 1px;
 }
@@ -44,4 +59,54 @@
 .custom-navbar .nav-link.active {
   color: #FC6018;
   border-bottom-color: #FC6018;
+}
+
+/* Hero Section */
+.hero-section {
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+}
+
+.hero-title {
+  font-family: "Archivo Black", sans-serif;
+  font-size: clamp(2.4rem, 5vw, 4.2rem);
+  font-weight: 900;
+  line-height: 1.1;
+  letter-spacing: 1px;
+  background: linear-gradient(90deg, #FFFFFF 15%, #FC6018 75%);
+  background-clip: text;
+  color: transparent;
+  margin-bottom: 1.75rem;
+}
+
+.hero-description {
+  color: #b0b0b0;
+  font-size: 1rem;
+  line-height: 1.6;
+  border-left: 3.5px solid #FC6018;
+  padding-left: 1.1rem;
+  max-width: 530px;
+  margin-bottom: 2rem;
+}
+
+.btn-hero {
+  box-shadow: 0 4px 20px rgba(252, 96, 24, 0.45);
+  font-weight: 800;
+  font-size: 0.9rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-hero:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 25px rgba(252, 96, 24, 0.6);
+}
+
+.hero-logo {
+  max-width: 360px;
+  width: 100%;
+  height: auto;
+  filter: drop-shadow(0 10px 25px rgba(0, 0, 0, 0.5));
 }
