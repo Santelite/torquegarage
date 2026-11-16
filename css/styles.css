@@ -1,15 +1,5 @@
 /* Primary button override */
 .btn-primary {
-  --bs-btn-color: #000;
-  --bs-btn-bg: #FC6018;
-  --bs-btn-border-color: #FC6018;
-  --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: #e05312;
-  --bs-btn-hover-border-color: #d44d0f;
-  --bs-btn-active-color: #000;
-  --bs-btn-active-bg: #c7460c;
-  --bs-btn-active-border-color: #c7460c;
-  --bs-btn-border-radius: 50rem;
   background-color: #FC6018;
   border-color: #FC6018;
   color: #000;
@@ -20,11 +10,14 @@
 
 /* Custom Navbar */
 .custom-navbar {
-  background-color: #000;
+  background-color: #121212;
+  font-family: "Public Sans";
+  border: #FC6018;
 }
 
 .custom-navbar .navbar-brand {
   color: #FC6018;
+  font-family: "Archivo Black";
   font-weight: 900;
   font-size: 1.4rem;
   letter-spacing: 1px;
