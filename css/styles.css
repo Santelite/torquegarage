@@ -1,0 +1,54 @@
+/* Primary button override */
+.btn-primary {
+  --bs-btn-color: #000;
+  --bs-btn-bg: #FC6018;
+  --bs-btn-border-color: #FC6018;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #e05312;
+  --bs-btn-hover-border-color: #d44d0f;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: #c7460c;
+  --bs-btn-active-border-color: #c7460c;
+  --bs-btn-border-radius: 50rem;
+  background-color: #FC6018;
+  border-color: #FC6018;
+  color: #000;
+  border-radius: 50rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+/* Custom Navbar */
+.custom-navbar {
+  background-color: #000;
+}
+
+.custom-navbar .navbar-brand {
+  color: #FC6018;
+  font-weight: 900;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+}
+
+.custom-navbar .navbar-brand:hover {
+  color: #FC6018;
+}
+
+.custom-navbar .nav-link {
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+  padding-bottom: 4px;
+  border-bottom: 2px solid transparent;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #FC6018;
+}
+
+.custom-navbar .nav-link.active {
+  color: #FC6018;
+  border-bottom-color: #FC6018;
+}
