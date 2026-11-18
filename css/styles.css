@@ -5,18 +5,19 @@ body {
   font-family: "Public Sans", sans-serif;
 }
 
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 25px rgba(252, 96, 24, 0.6);
+  background-color: #b14513;
+  border-color: #ffffff;
+}
+
+.border-naranja {
+  border-color: #FC6018;
+}
+
 /* Primary button override */
 .btn-primary {
-  --bs-btn-color: #000;
-  --bs-btn-bg: #FC6018;
-  --bs-btn-border-color: #FC6018;
-  --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: #e05312;
-  --bs-btn-hover-border-color: #d44d0f;
-  --bs-btn-active-color: #000;
-  --bs-btn-active-bg: #c7460c;
-  --bs-btn-active-border-color: #c7460c;
-  --bs-btn-border-radius: 50rem;
   background-color: #FC6018;
   border-color: #FC6018;
   color: #000;
@@ -89,24 +90,102 @@ body {
   margin-bottom: 2rem;
 }
 
-.btn-hero {
-  box-shadow: 0 4px 20px rgba(252, 96, 24, 0.45);
-  font-weight: 800;
-  font-size: 0.9rem;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.btn-hero:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 25px rgba(252, 96, 24, 0.6);
-}
-
 .hero-logo {
   max-width: 360px;
   width: 100%;
   height: auto;
   filter: drop-shadow(0 10px 25px rgba(0, 0, 0, 0.5));
+}
+
+/* Services Section */
+.text-naranja {
+  color: #FC6018 !important;
+}
+
+.service-card {
+  background-color: #212121;
+}
+
+.service-card-mechanic {
+  background: linear-gradient(rgba(20, 20, 20, 0.75), rgba(20, 20, 20, 0.85)), url('../img/mecanica.png') center/cover;
+}
+
+.service-badge {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(252, 96, 24, 0.15);
+  border: 1px solid rgba(252, 96, 24, 0.4);
+  color: #FC6018;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ac-icon-box {
+  width: 68px;
+  height: 68px;
+  border-radius: 1rem;
+  background-color: #161616;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  flex-shrink: 0;
+}
+
+/* CTA Card */
+.cta-banner {
+  background-color: #FC6018;
+}
+
+.cta-banner h2 {
+  font-family: "Archivo Black", sans-serif;
+  letter-spacing: 0.5px;
+}
+
+.cta-banner .btn-dark {
+  background-color: #121212;
+  border-color: #121212;
+  color: #fff;
+}
+
+.cta-banner .btn-dark:hover {
+  background-color: #000;
+  border-color: #000;
+}
+
+.cta-banner .btn-outline-dark {
+  border-color: #121212;
+  color: #121212;
+}
+
+.cta-banner .btn-outline-dark:hover {
+  background-color: #121212;
+  border-color: #121212;
+  color: #fff;
+}
+
+/* Team Section */
+.badge-exp {
+  background-color: #FC6018;
+  font-size: 0.75rem;
+  letter-spacing: 0.5px;
+}
+
+/* Footer */
+.custom-footer {
+  background-color: #121212;
+}
+
+.footer-link {
+  color: #fff;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+  transition: color 0.2s ease;
+}
+
+.footer-link:hover {
+  color: #FC6018;
 }
