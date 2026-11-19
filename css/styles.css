@@ -189,3 +189,27 @@ body {
 .footer-link:hover {
   color: #FC6018;
 }
+
+.service-icon-square {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background-color: rgba(252, 96, 24, 0.12);
+  color: #FC6018;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+}
+
+.promo-badge {
+  background-color: rgba(252, 96, 24, 0.08);
+  border: 1px solid rgba(252, 96, 24, 0.35);
+  border-radius: 50rem;
+  padding: 0.6rem 1.25rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  color: #cfcfcf;
+  font-size: 0.85rem;
+}
