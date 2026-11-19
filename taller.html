@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <title>Taller - Torque Garage</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS v5.3.8 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg custom-navbar border-bottom py-3">
+            <div class="container-fluid px-lg-5">
+                <a class="navbar-brand text-uppercase" href="/index.html">Torque Garage</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                    aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-lg-4 text-uppercase">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/servicios">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/taller.html">Taller</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/ubicacion">Ubicación</a>
+                        </li>
+                    </ul>
+
+                    <div class="d-flex">
+                        <a href="/reservar" class="btn btn-primary px-4 py-2 text-uppercase">Reservar</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="py-5">
+        <section class="py-5 about-section">
+            <div class="container px-lg-1">
+                <!-- Section Header -->
+                <div class="mb-4">
+                    <h1 class="hero-title mb-1 text-uppercase" style="font-size: clamp(2rem, 4vw, 3.2rem);">
+                        Sobre Nosotros
+                    </h1>
+                    <p class="text-secondary mb-0">
+                        Mecánica de confianza, repuestos de alta gama y atención personalizada. Así trabajamos en Torque Garage.
+                    </p>
+                </div>
+
+                <!-- Card 1: Historia -->
+                <div class="card service-card service-card-mechanic text-white rounded-4 border-0 p-4 p-md-5 mb-4">
+                    <div class="card-body p-0" style="max-width: 620px;">
+                        <h2 class="card-title text-uppercase fw-bold h4 mb-3 d-flex align-items-center gap-2">
+                            <i class="bi bi-tools text-orange"></i> Historia
+                        </h2>
+                        <p class="card-text text-secondary mb-0">
+                            Torque Garage nace de la pasión por los motores y el deseo de ofrecer un servicio automotriz diferente: honrado, técnico y cercano al cliente. Desde nuestros inicios, hemos crecido gracias a la confianza de quienes nos visitan, ampliando nuestros servicios y equipo para cubrir cada necesidad de mantenimiento y reparación.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Cards 2 & 3: Misión & Visión -->
+                <div class="row g-4">
+                    <!-- Misión -->
+                    <div class="col-md-6">
+                        <div class="card cta-banner text-dark rounded-4 border-0 p-4 p-md-5 text-center h-100">
+                            <div class="card-body p-0 d-flex flex-column justify-content-center">
+                                <h2 class="card-title text-uppercase fw-bold h3 mb-3">
+                                    Misión
+                                </h2>
+                                <p class="card-text fw-medium text-dark opacity-75 mb-0">
+                                    Brindar servicios automotrices confiables, rápidos y de calidad, respaldados por técnicos capacitados y repuestos garantizados, para que cada cliente recupere la confianza y seguridad en su vehículo.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Visión -->
+                    <div class="col-md-6">
+                        <div class="card cta-banner text-dark rounded-4 border-0 p-4 p-md-5 text-center h-100">
+                            <div class="card-body p-0 d-flex flex-column justify-content-center">
+                                <h2 class="card-title text-uppercase fw-bold h3 mb-3">
+                                    Visión
+                                </h2>
+                                <p class="card-text fw-medium text-dark opacity-75 mb-0">
+                                    Convertirnos en el taller automotriz de referencia en la zona, reconocido por la integridad y rectitud en el diagnóstico, la calidad del servicio y el compromiso con la satisfacción del cliente.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+        <footer class="custom-footer py-5 border-top" style="border-top: 1px #FC6018;">
+        <div class="container px-lg-1">
+            <div class="row justify-content-between align-items-center gy-4">
+                <!-- Brand / Logo -->
+                <div class="col-12 col-md-4 col-lg-3">
+                    <img src="./img/logo.png" alt="Torque Garage" class="img-fluid" style="max-width: 130px;">
+                </div>
+
+                <!-- Info Links -->
+                <div class="col-6 col-md-4 col-lg-3">
+                    <ul class="list-unstyled mb-0 d-flex flex-column gap-3">
+                        <li>
+                            <a href="#ubicacion" class="footer-link d-inline-flex align-items-center gap-2 text-uppercase fw-bold text-decoration-none">
+                                <i class="bi bi-geo-alt"></i> Ubicación
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#horarios" class="footer-link d-inline-flex align-items-center gap-2 text-uppercase fw-bold text-decoration-none">
+                                <i class="bi bi-clock"></i> Horarios
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Social Links -->
+                <div class="col-6 col-md-4 col-lg-3">
+                    <ul class="list-unstyled mb-0 d-flex flex-column gap-3">
+                        <li>
+                            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="footer-link d-inline-flex align-items-center gap-2 text-uppercase fw-bold text-decoration-none">
+                                <i class="bi bi-instagram"></i> Instagram
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="footer-link d-inline-flex align-items-center gap-2 text-uppercase fw-bold text-decoration-none">
+                                <i class="bi bi-facebook"></i> Facebook
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://whatsapp.com" target="_blank" rel="noopener noreferrer" class="footer-link d-inline-flex align-items-center gap-2 text-uppercase fw-bold text-decoration-none">
+                                <i class="bi bi-whatsapp"></i> Whatsapp
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JavaScript Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
