@@ -214,6 +214,10 @@ body {
   font-size: 0.85rem;
 }
 
+/* Ubicaciones */
+.ubicacion-title {
+
+}
 /* contactanos page*/
 
 .contact-card {
@@ -241,6 +245,13 @@ body {
   margin-bottom: 1.75rem;
 }
 
+.ubicacion-card {
+  background: #1a1a1a;
+  border: 1px solid #2a1f1c;
+  border-radius: 16px;
+  padding: 24px;
+  max-width: 100%;
+}
 .contact-card .form-control:focus,
 .contact-card .form-select:focus {
   background-color: #0f0f0f;

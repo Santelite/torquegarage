@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="es" data-bs-theme="dark">
+
+<head>
+    <title>Ubicaciones - Torque Garage</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS v5.3.8 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg custom-navbar border-bottom py-3">
+            <div class="container-fluid px-lg-5">
+                <a class="navbar-brand text-uppercase" href="index.html">Torque Garage</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                    aria-controls="navbarContent" aria-expanded="false" aria-label="Abrir menú de navegación">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-lg-4 text-uppercase">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="taller.html">Taller</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="ubicacion.html">Ubicación</a>
+                        </li>
+                    </ul>
+
+                    <div class="d-flex">
+                        <a href="reservar.html" class="btn btn-primary px-4 py-2 text-uppercase">Reservar</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="pt-5">
+        <!-- Sucursales -->
+        <section class="py-5">
+            <div class="container px-lg-1 pt-lg-4">
+                <div class="row justify-content-center text-center mb-5">
+                    <div class="col-md-9 col-lg-7">
+                        <h1 class="hero-title d-inline-block text-uppercase mb-2">Ubicaciones</h1>
+                        <p class="text-body-secondary mb-0">
+                            Encuéntranos en Santa Ana y Santa Tecla. Te esperamos para el mantenimiento y la reparación de tu vehículo.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row g-4">
+                    <!-- Santa Ana -->
+                    <div class="col-12 col-md-6">
+                        <article class="card ubicacion-card text-white h-100 shadow-sm">
+                            <div class="card-body p-0 d-flex flex-column">
+                                <h2 class="ubicacion-title fs-4 text-uppercase mb-2">Sucursal Santa Ana</h2>
+                                <p class="text-body-secondary small mb-3">
+                                    Visita nuestra casa matriz para conocer todos los servicios del taller.
+                                </p>
+
+                                <ul class="list-unstyled d-flex flex-column gap-3 mb-4">
+                                    <li class="d-flex align-items-center gap-3">
+                                        <span class="service-icon-square flex-shrink-0"><i class="bi bi-house-door" aria-hidden="true"></i></span>
+                                        <div class="small">
+                                            <div class="text-naranja text-uppercase fw-bold">Garage 1</div>
+                                            <div class="text-body-secondary">Santa Ana Centro, Santa Ana</div>
+                                        </div>
+                                    </li>
+                                    <li class="d-flex align-items-center gap-3">
+                                        <span class="service-icon-square flex-shrink-0"><i class="bi bi-geo-alt" aria-hidden="true"></i></span>
+                                        <div class="small">
+                                            <div class="text-naranja text-uppercase fw-bold">Dirección</div>
+                                            <div class="text-body-secondary">9.ª calle Oriente, entre 21 y 23 avenida Sur</div>
+                                        </div>
+                                    </li>
+                                    <li class="d-flex align-items-center gap-3">
+                                        <span class="service-icon-square flex-shrink-0"><i class="bi bi-clock" aria-hidden="true"></i></span>
+                                        <div class="small">
+                                            <div class="text-naranja text-uppercase fw-bold">Horario</div>
+                                            <div class="text-body-secondary">Lun. a vie. de 8:00 a.&nbsp;m. a 5:00 p.&nbsp;m. · Sáb. de 8:00 a.&nbsp;m. a 12:00 p.&nbsp;m.</div>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                                <div class="ratio ratio-21x9 rounded-3 bg-white bg-opacity-10 mt-auto">
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3871.596427626143!2d-89.5483965!3d13.982610999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f62e62036825a69%3A0xec68b49f92513893!2sUniversidad%20Catolica%20de%20El%20Salvador!5e0!3m2!1ses!2ssv!4v1795148895080!5m2!1ses!2ssv"
+                                        title="Mapa de Santa Ana en Google Maps" width="600" height="450"
+                                        class="border-0 rounded-3" allowfullscreen loading="lazy"
+                                        referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Santa Tecla -->
+                    <div class="col-12 col-md-6">
+                        <article class="card ubicacion-card text-white h-100 shadow-sm">
+                            <div class="card-body p-0 d-flex flex-column">
+                                <h2 class="ubicacion-title fs-4 text-uppercase mb-2">Sucursal Santa Tecla</h2>
+                                <p class="text-body-secondary small mb-3">
+                                    En esta sucursal hacemos mantenimiento preventivo, revisiones de A/C y trabajos electromecánicos.
+                                </p>
+
+                                <ul class="list-unstyled d-flex flex-column gap-3 mb-4">
+                                    <li class="d-flex align-items-center gap-3">
+                                        <span class="service-icon-square flex-shrink-0"><i class="bi bi-house-door" aria-hidden="true"></i></span>
+                                        <div class="small">
+                                            <div class="text-naranja text-uppercase fw-bold">Garage 2</div>
+                                            <div class="text-body-secondary">Santa Tecla, La Libertad Sur</div>
+                                        </div>
+                                    </li>
+                                    <li class="d-flex align-items-center gap-3">
+                                        <span class="service-icon-square flex-shrink-0"><i class="bi bi-geo-alt" aria-hidden="true"></i></span>
+                                        <div class="small">
+                                            <div class="text-naranja text-uppercase fw-bold">Dirección</div>
+                                            <div class="text-body-secondary">Carr. al Puerto de La Libertad 1/2, Santa Tecla, CP 1501</div>
+                                        </div>
+                                    </li>
+                                    <li class="d-flex align-items-center gap-3">
+                                        <span class="service-icon-square flex-shrink-0"><i class="bi bi-clock" aria-hidden="true"></i></span>
+                                        <div class="small">
+                                            <div class="text-naranja text-uppercase fw-bold">Horario</div>
+                                            <div class="text-body-secondary">Lun. a vie. de 8:00 a.&nbsp;m. a 5:00 p.&nbsp;m. · Sáb. de 8:00 a.&nbsp;m. a 12:00 p.&nbsp;m.</div>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                                <div class="ratio ratio-21x9 rounded-3 bg-white bg-opacity-10 mt-auto">
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3871.596427626143!2d-89.5483965!3d13.982610999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f62e62036825a69%3A0xec68b49f92513893!2sUniversidad%20Catolica%20de%20El%20Salvador!5e0!3m2!1ses!2ssv!4v1795148895080!5m2!1ses!2ssv"
+                                        title="Mapa de la Universidad Católica de El Salvador en Google Maps" width="600" height="450"
+                                        class="border-0 rounded-3" allowfullscreen loading="lazy"
+                                        referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Horario y cómo llegar -->
+        <section id="horarios" class="py-5 border-top bg-dark-subtle">
+            <div class="container px-lg-1 pt-5 pt-lg-4">
+                <div class="row g-4 g-lg-5">
+                    <div class="col-lg-7">
+                        <h2 class="h4 text-uppercase fw-bold d-flex align-items-center gap-2 mb-3">
+                            <span class="service-badge flex-shrink-0"><i class="bi bi-clock" aria-hidden="true"></i></span>
+                            Horario de atención
+                        </h2>
+                        <dl class="mb-0 d-flex flex-column gap-2">
+                            <div class="d-flex flex-wrap justify-content-between column-gap-3 rounded-3 bg-white bg-opacity-10 px-3 py-2">
+                                <dt class="fw-normal">Lunes a viernes</dt>
+                                <dd class="text-naranja fw-bold mb-0">8:00 a. m. a 5:00 p. m.</dd>
+                            </div>
+                            <div class="d-flex flex-wrap justify-content-between column-gap-3 rounded-3 bg-white bg-opacity-10 px-3 py-2">
+                                <dt class="fw-normal">Sábado</dt>
+                                <dd class="text-naranja fw-bold mb-0">8:00 a. m. a 12:00 p. m.</dd>
+                            </div>
+                            <div class="d-flex flex-wrap justify-content-between column-gap-3 rounded-3 bg-white bg-opacity-10 px-3 py-2">
+                                <dt class="fw-normal">Domingo</dt>
+                                <dd class="text-body-secondary mb-0">Cerrado</dd>
+                            </div>
+                        </dl>
+                    </div>
+
+                    <div class="col-lg-5">
+                        <h2 class="h4 text-uppercase fw-bold mb-3">Cómo llegar</h2>
+                        <div class="rounded-3 bg-white bg-opacity-10 p-3 mb-3">
+                            <h3 class="h6 fw-bold mb-2">Sucursal Santa Ana</h3>
+                            <a href="https://www.google.com/maps/dir/?api=1&amp;destination=9a+Calle+Oriente+entre+21+y+23+Avenida+Sur%2C+Santa+Ana%2C+El+Salvador"
+                                class="btn-primary d-block px-3 py-1 text-center text-uppercase text-decoration-none small" target="_blank" rel="noopener noreferrer"
+                                aria-label="Cómo llegar a la sucursal Santa Ana">Cómo llegar</a>
+                        </div>
+                        <div class="rounded-3 bg-white bg-opacity-10 p-3">
+                            <h3 class="h6 fw-bold mb-2">Sucursal Santa Tecla</h3>
+                            <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Carretera+al+Puerto+de+La+Libertad+1%2F2%2C+Santa+Tecla+1501%2C+El+Salvador"
+                                class="btn-primary d-block px-3 py-1 text-center text-uppercase text-decoration-none small" target="_blank" rel="noopener noreferrer"
+                                aria-label="Cómo llegar a la sucursal Santa Tecla">Cómo llegar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="custom-footer py-5 border-top">
+        <div class="container px-lg-1">
+            <div class="row justify-content-between align-items-center gy-4">
+                <!-- Brand / Logo -->
+                <div class="col-12 col-md-4 col-lg-3">
+                    <img src="./img/logo.png" alt="Torque Garage" class="img-fluid" width="130">
+                </div>
+
+                <!-- Info Links -->
+                <div class="col-6 col-md-4 col-lg-3">
+                    <ul class="list-unstyled mb-0 d-flex flex-column gap-3">
+                        <li>
+                            <a href="ubicacion.html" class="footer-link d-inline-flex align-items-center gap-2 text-uppercase fw-bold text-decoration-none">
+                                <i class="bi bi-geo-alt" aria-hidden="true"></i> Ubicación
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#horarios" class="footer-link d-inline-flex align-items-center gap-2 text-uppercase fw-bold text-decoration-none">
+                                <i class="bi bi-clock" aria-hidden="true"></i> Horarios
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Social Links -->
+                <div class="col-6 col-md-4 col-lg-3">
+                    <ul class="list-unstyled mb-0 d-flex flex-column gap-3">
+                        <li>
+                            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="footer-link d-inline-flex align-items-center gap-2 text-uppercase fw-bold text-decoration-none">
+                                <i class="bi bi-instagram" aria-hidden="true"></i> Instagram
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="footer-link d-inline-flex align-items-center gap-2 text-uppercase fw-bold text-decoration-none">
+                                <i class="bi bi-facebook" aria-hidden="true"></i> Facebook
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://whatsapp.com" target="_blank" rel="noopener noreferrer" class="footer-link d-inline-flex align-items-center gap-2 text-uppercase fw-bold text-decoration-none">
+                                <i class="bi bi-whatsapp" aria-hidden="true"></i> Whatsapp
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JavaScript Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
